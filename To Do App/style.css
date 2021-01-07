@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-image: linear-gradient(145deg, #ee79d5 0%, #090f69 100%);
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+.header
+{
+    font-size: 2rem;
+    margin:auto;
+    width:fit-content;
+    margin-top:20px;
+    margin-bottom:30px;
+    border-bottom:2px solid white;
+}
+
+.card
+{
+    box-shadow:0 0 10px rgb(0,0,0);
+    width:96%;
+    max-width:600px;
+    text-align: center;
+    padding:20px;
+    background-color:rgb(248, 205, 237);
+    margin:auto;
+    border-radius: 20px;
+}
+
+.seg
+{
+    background-color:#c011b7;
+    border:none;
+    height:2px;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+
+/*  Input  */
+.form-input
+{
+    background:white;
+    width:fit-content;
+    margin:auto;
+}
+.text-input
+{
+    border:none;
+    padding:0.5rem;
+    font-size: 1.25rem;
+    width:80%;
+}
+
+
+/*  List Area Styling */
+.add-to-list
+{
+    cursor:pointer;
+    transition: all 0.3s ease;
+    border:none;
+    padding:0.5rem;
+    font-size:1.25rem;
+    color:#ee79d5;
+    background: white;
+}
+input:focus
+{
+    outline:none;
+}
+button:focus
+{
+    outline:none;
+}
+
+/** List Items Styling */
+
+.list-items
+{
+    display: inline-block;
+    width:70%;
+    max-width:500px;
+    text-decoration: none;
+    color:white;
+    background-color: rgb(66, 3, 58);
+    list-style: none;
+    padding:7px 0; 
+    overflow-x:auto;  
+}
+
+.done-btn
+{
+    display: inline;
+    padding:15px;
+    padding-bottom:10px;
+    padding-top:12px;
+    border:none;
+    background: rgb(100, 214, 25);
+    color:white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.delete-btn
+{
+    display: inline;
+    padding:15px;
+    padding-bottom:10px;
+    padding-top:12px;
+    border:none;
+    background: rgb(231, 12, 12);
+    color:white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.list-item-container
+{
+    margin:10px;
+}
+
+button > *
+{
+    pointer-events : none;
+}
+
+.completed > li
+{
+    text-decoration:line-through;
+    color:rgba(255,255,255,0.7);
+}
+
+.remove
+{
+    display: none;
+}
