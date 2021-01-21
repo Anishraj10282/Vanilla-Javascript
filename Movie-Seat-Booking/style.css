@@ -1,0 +1,114 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgb(31, 2, 51),rgb(124, 7, 72));
+}
+
+.container
+{
+    margin:auto;
+    width:fit-content;
+    color:rgba(255,255,255,0.8);
+    margin-top:200px;
+}
+
+.title
+{
+    margin : 10px;
+}
+
+#movie
+{
+    padding:5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border:none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.seat-box
+{
+    width:100%;
+    text-align: center;
+}
+
+.seat-guidance
+{
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:30px;
+    width:fit-content;
+    background-color: rgb(128, 7, 73);
+    padding-right:10px;
+    padding-left:3px;
+    border-radius: 6px;
+}
+
+
+.seat-vacant
+{
+    display: inline-block;
+    margin:5px;
+    background-color:rgba(255,255,255,0.3);
+}
+
+.seat-taken
+{
+    display: inline-block;
+    margin-left:20px;
+    margin-right:5px;
+    background-color:red;
+    border:none;
+}
+
+.seat-selected
+{
+    display: inline-block;
+    margin-left:20px;
+    margin-right:5px;
+    background-color:rgb(37, 153, 22);
+}
+
+.row
+{
+    text-align: center;
+    margin-top:10px;
+    width:100%;
+}
+
+.row i
+{
+    margin:3px;
+}
+
+.vacant{
+    background-color: rgba(255,255,255,0.3);
+}
+
+.row > i:nth-of-type(2), .row > i:nth-last-of-type(3)
+{
+    margin-right:25px;
+}
+
+.taken
+{
+    background-color:rgba(255,0,0,0.9);
+}
+
+.selected
+{
+    background-color: rgb(37, 153, 22);
+}
+
+.confirm-ticket
+{
+    margin:auto;
+    margin-top:20px;
+    width:fit-content;
+}
